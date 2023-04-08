@@ -1,80 +1,80 @@
-<p align="center"><a href="https://shen-yu.gitee.io" target="_blank" rel="noopener noreferrer"><img width="100" src="logo.png" alt="ayer logo"></a></p>
+<p align="center"><a href="https://LeoHaoVIP.gitee.io" target="_blank" rel="noopener noreferrer"><img width="100" src="logo.png" alt="yoga logo"></a></p>
 
 <h3 align="center">一个干净且优雅的 Hexo 主题</h3>
 
 <p align="center">
-  <a href="https://travis-ci.org/Shen-Yu/hexo-theme-ayer?branch=master" target="_blank" rel="noopener noreferrer">
-    <img alt="travis-ci" src="https://travis-ci.org/Shen-Yu/hexo-theme-ayer.svg?branch=master">
+  <a href="https://travis-ci.org/LeoHaoVIP/hexo-theme-yoga?branch=master" target="_blank" rel="noopener noreferrer">
+    <img alt="travis-ci" src="https://travis-ci.org/LeoHaoVIP/hexo-theme-yoga.svg?branch=master">
   </a>
   <a href="http://standardjs.com" target="_blank" rel="noopener noreferrer">
     <img alt="js-standard-style" src="https://img.shields.io/badge/code%20style-standard-brightgreen.svg">
   </a>
   <br>  
-  <a href="https://www.npmjs.com/package/hexo-theme-ayer" target="_blank" rel="noopener noreferrer">
-  <img alt="npm" src="https://img.shields.io/npm/dt/hexo-theme-ayer">
+  <a href="https://www.npmjs.com/package/hexo-theme-yoga" target="_blank" rel="noopener noreferrer">
+  <img alt="npm" src="https://img.shields.io/npm/dt/hexo-theme-yoga">
   </a>
-  <a href="https://shen-yu.gitee.io" target="_blank" rel="noopener noreferrer">
+  <a href="https://LeoHaoVIP.gitee.io" target="_blank" rel="noopener noreferrer">
    <img alt="platform" src="https://img.shields.io/badge/platform-PC--ios--android-ff69b4.svg">
    </a>
-  <a href="https://gitter.im/hexo-theme-ayer/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge" target="_blank" rel="noopener noreferrer">
+  <a href="https://gitter.im/hexo-theme-yoga/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge" target="_blank" rel="noopener noreferrer">
     <img alt="Gitter" src="https://badges.gitter.im/Join%20Chat.svg">
   </a>
   <br>
-  <a href="https://www.npmjs.com/package/hexo-theme-ayer" target="_blank" rel="noopener noreferrer">
-    <img alt="npm version" src="https://img.shields.io/npm/v/hexo-theme-ayer">
+  <a href="https://www.npmjs.com/package/hexo-theme-yoga" target="_blank" rel="noopener noreferrer">
+    <img alt="npm version" src="https://img.shields.io/npm/v/hexo-theme-yoga">
   </a> 
  <img alt="language" src="https://img.shields.io/badge/language-ejs--stylus-green.svg">
- <a href="https://github.com/Shen-Yu/hexo-theme-ayer/releases" target="_blank" rel="noopener noreferrer">
-  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Shen-Yu/hexo-theme-ayer?color=b37feb">
+ <a href="https://github.com/LeoHaoVIP/hexo-theme-yoga/releases" target="_blank" rel="noopener noreferrer">
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/LeoHaoVIP/hexo-theme-yoga?color=b37feb">
   </a>
-  <a href="https://github.com/Shen-Yu/hexo-theme-ayer/blob/master/LICENSE" target="_blank" rel="noopener noreferrer"><img alt="LICENSE" src="https://img.shields.io/badge/LICENSE-SATA-6ccab8">
+  <a href="https://github.com/LeoHaoVIP/hexo-theme-yoga/blob/master/LICENSE" target="_blank" rel="noopener noreferrer"><img alt="LICENSE" src="https://img.shields.io/badge/LICENSE-SATA-6ccab8">
   </a>
 </p>
 
 ---
 
-:ocean: Ayer is a clean and elegant theme for Hexo, also fast, powerful and responsive. It contains many awesome features, It's perfect for your blog, "Ayer" means "water" in Malaysian and "yesterday" in Spanish. [Create an issue](https://github.com/shen-yu/hexo-theme-ayer/issues/new/choose) if you have any queries or advice during the process of using, 
+:ocean: Yoga is a clean and elegant theme for Hexo, also fast, powerful and responsive. It contains many awesome features, It's perfect for your blog, "Yoga" means "water" in Malaysian and "yesterday" in Spanish. [Create an issue](https://github.com/LeoHaoVIP/hexo-theme-yoga/issues/new/choose) if you have any queries or advice during the process of using, 
 
 <b>注：收藏本主题请点右上角 Star，谢谢~~ </b>
 <b>如果你想给主题添砖加瓦，可以点右上角 Fork，然后给此仓库提交 PR</b>
 
-### [Preview 预览](https://shen-yu.gitee.io)
+### [Preview 预览](https://LeoHaoVIP.gitee.io)
 
-### [中文说明](https://shen-yu.gitee.io/2019/ayer/)
+### [中文说明](https://LeoHaoVIP.gitee.io/2019/yoga/)
 
-### [国内镜像](https://gitee.com/shen-yu/hexo-theme-ayer)
+### [国内镜像](https://gitee.com/LeoHaoVIP/hexo-theme-yoga)
 
-![Screenshot](screenshots/hexo-theme-ayer.png)
+![Screenshot](screenshots/hexo-theme-yoga.png)
 
 ## Install
 
 ### For hexo >= 5.0
 
 ```shell
-npm i hexo-theme-ayer -S
+npm i hexo-theme-yoga -S
 ```
 
-- If this theme is newly installed, a `_config.ayer.yml` file will be generated in the root directory after the installation is complete, and you can directly edit the `_config.ayer.yml` file for configuration.
-- If it is a theme upgrade, you can use the configuration method of hexo < 5.0, or you can move the original configuration file to the root directory and rename it to `_config.ayer.yml`.
+- If this theme is newly installed, a `_config.yoga.yml` file will be generated in the root directory after the installation is complete, and you can directly edit the `_config.yoga.yml` file for configuration.
+- If it is a theme upgrade, you can use the configuration method of hexo < 5.0, or you can move the original configuration file to the root directory and rename it to `_config.yoga.yml`.
 
 ### For hexo < 5.0
 
 ```shell
-git clone https://github.com/Shen-Yu/hexo-theme-ayer.git themes/ayer
+git clone https://github.com/LeoHaoVIP/hexo-theme-yoga.git themes/yoga
 ```
 
 ## Enable
 
-Modify `theme` setting in `_config.yml` to `ayer`
+Modify `theme` setting in `_config.yml` to `yoga`
 
 ```yml
-theme: ayer
+theme: yoga
 ```
 
 ## Update
 
 ```bash
-cd themes/ayer
+cd themes/yoga
 git pull
 ```
 
@@ -114,14 +114,14 @@ subtitle:
 
 # Favicon and sidebar logo
 favicon: /favicon.ico
-logo: /images/ayer-side.svg
+logo: /images/yoga-side.svg
 
 # Cover Setting
 # enable: [true|false]；path: [background-image]；logo: [cover-logo-image]
 cover:
   enable: true
-  path: /images/cover1.jpg # there are some beautiful cover images in Ayer's directory: /source/images, choose your favorite image to replace it.
-  logo: /images/ayer.svg
+  path: /images/cover1.jpg # there are some beautiful cover images in Yoga's directory: /source/images, choose your favorite image to replace it.
+  logo: /images/yoga.svg
 
 # ProgressBar
 progressBar: true
@@ -211,7 +211,7 @@ layout:
 github:
   # (Set false if you don't need)
   enable: false
-  url: https://github.com/Shen-Yu/hexo-theme-ayer
+  url: https://github.com/LeoHaoVIP/hexo-theme-yoga
 
 # pv&uv statistics
 busuanzi:
@@ -255,22 +255,22 @@ gongan:
 
 # friends link
 friends_link:
-  Ayer: #site name
+  Yoga: #site name
     # site url
-    url: https://github.com/Shen-Yu/hexo-theme-ayer
+    url: https://github.com/LeoHaoVIP/hexo-theme-yoga
     # site icon(optional)
-    img: /images/ayer.png
+    img: /images/yoga.png
   GitHub:
-    url: https://github.com/Shen-Yu
+    url: https://github.com/LeoHaoVIP
     img: https://i.loli.net/2020/09/07/indb4PRYDA98EkN.png
   gitee:
-    url: https://gitee.com/shen-yu
+    url: https://gitee.com/LeoHaoVIP
     img: https://i.loli.net/2020/09/07/K3AqO7h6krQFlRX.png
   Hexo:
     url: https://hexo.io
     img: https://i.loli.net/2020/09/07/UYGzjo7h68CRWny.png
   hexo-tag-chart:
-    url: https://github.com/Shen-Yu/hexo-tag-chart
+    url: https://github.com/LeoHaoVIP/hexo-tag-chart
     img: https://i.loli.net/2020/09/07/GIXBYE5SoylhR1r.png
 
 # Comment：1、Valine (recommended)；2、Gitalk；3、Twikoo；4、MiniValine
@@ -313,12 +313,12 @@ minivaline:
 ads:
   ad_1:
     title: vultr优惠vps
-    img: https://fastly.jsdelivr.net/gh/Shen-Yu/cdn/img/vultr.png
+    img: https://fastly.jsdelivr.net/gh/LeoHaoVIP/cdn/img/vultr.png
     url: https://www.vultr.com/?ref=8630075
     width: 300
   ad_2:
     title: 云服务器全球购低至2折
-    img: https://fastly.jsdelivr.net/gh/Shen-Yu/cdn/img/ten_2.jpg
+    img: https://fastly.jsdelivr.net/gh/LeoHaoVIP/cdn/img/ten_2.jpg
     url: https://curl.qcloud.com/kvO7hb43
     width: 300
 
@@ -427,14 +427,14 @@ albums: [["img_url", "img_caption"], ["img_url", "img_caption"]]
 
 Use Tocbot to parse the title tags (h1~h6) in the content and insert the directory.
 
-- ayer/\_config.yml
+- yoga/\_config.yml
 
   ```bash
   # Toc
   toc: true
   ```
 
-- If Toc is turned on in ayer/\_config.yml, then Tocbot will generate a Toc article directory in the title tag of each blog parsing content, but not all blogs require Toc, so in the Front-matter section of markdown Can be closed:
+- If Toc is turned on in yoga/\_config.yml, then Tocbot will generate a Toc article directory in the title tag of each blog parsing content, but not all blogs require Toc, so in the Front-matter section of markdown Can be closed:
 
   ```md
   ---
@@ -450,20 +450,20 @@ Use Tocbot to parse the title tags (h1~h6) in the content and insert the directo
 
 This project exists thanks to all the people who contribute.
 
-<a href="https://github.com/Shen-Yu/hexo-theme-ayer/graphs/contributors"><img src="https://opencollective.com/ayer/contributors.svg?width=890&button=false" /></a>
+<a href="https://github.com/LeoHaoVIP/hexo-theme-yoga/graphs/contributors"><img src="https://opencollective.com/yoga/contributors.svg?width=890&button=false" /></a>
 
 ## Stargazers over time
 
-[![Stargazers over time](https://starchart.cc/Shen-Yu/hexo-theme-ayer.svg)](https://starchart.cc/Shen-Yu/hexo-theme-ayer)
+[![Stargazers over time](https://starchart.cc/LeoHaoVIP/hexo-theme-yoga.svg)](https://starchart.cc/LeoHaoVIP/hexo-theme-yoga)
 
 ## License
 
-<a src="https://github.com/Shen-Yu/hexo-theme-ayer">Ayer</a> by <a  href="https://github.com/Shen-Yu">Eric-Shen</a> is licensed under <a rel="license" href="https://github.com/Shen-Yu/hexo-theme-ayer/blob/master/LICENSE">SATA-License</a>.
+<a src="https://github.com/LeoHaoVIP/hexo-theme-yoga">Yoga</a> by <a  href="https://github.com/LeoHaoVIP">LeoHao</a> is licensed under <a rel="license" href="https://github.com/LeoHaoVIP/hexo-theme-yoga/blob/master/LICENSE">SATA-License</a>.
 
 The basic idea is, whenever using a project using SATA license, people shall star/like/+1 that project and thank the author. Just imagine Google stared your project and send you a thank-you letter because they used your project in github!
 <br>
 
-本项目采用<a rel="license" href="https://github.com/Shen-Yu/hexo-theme-ayer/blob/master/LICENSE">SATA</a>开源协议，在遵守 MIT 许可证的前提下，你应该马不停蹄的给这个开源项目“点个赞”，比如 github 右上角的 star，然后你应该感谢这个开源项目的作者，作者信息可以在许可证头部的版权声明部分找到。<br>
+本项目采用<a rel="license" href="https://github.com/LeoHaoVIP/hexo-theme-yoga/blob/master/LICENSE">SATA</a>开源协议，在遵守 MIT 许可证的前提下，你应该马不停蹄的给这个开源项目“点个赞”，比如 github 右上角的 star，然后你应该感谢这个开源项目的作者，作者信息可以在许可证头部的版权声明部分找到。<br>
 
 下面是几条 SATA 作者推荐的感谢途径，也是 SATA 包含的内容：
 

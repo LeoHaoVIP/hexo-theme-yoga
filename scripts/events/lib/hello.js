@@ -13,8 +13,8 @@ module.exports = (hexo) => {
 |         / ____ \\| |  | |____| | \\ \\          |
 |        /_/    \\_\\_|  |______|_|  \\_\\         |
 |                                              |
-|             感谢使用 Ayer 主题 !             |
-|   文档: https://shen-yu.gitee.io/2019/ayer/  |
+|             感谢使用 Yoga 主题 !             |
+|   GitHub: https://github.com/LeoHaoVIP/hexo-theme-yoga/  |
 |                                              |
 ------------------------------------------------
 `);
@@ -29,8 +29,8 @@ module.exports = (hexo) => {
 |           / ____ \\| |  | |____| | \\ \\            |
 |          /_/    \\_\\_|  |______|_|  \\_\\           |
 |                                                  |
-|        Thank you for using Ayer theme !          |
-| Docs: https://github.com/Shen-Yu/hexo-theme-ayer |
+|        Thank you for using Yoga theme !          |
+|   GitHub: https://github.com/LeoHaoVIP/hexo-theme-yoga/  |
 |                                                  |
 ----------------------------------------------------
 `);

@@ -3,13 +3,14 @@
 <div id="vcomments-box">
   <div id="vcomments"></div>
 </div>
-<script src="/js/av-min.js"></script>
+<script src="https://code.bdstatic.com/npm/leancloud-storage@4.12.0/dist/av-min.js"></script>
 <script src="https://cdn.staticfile.org/valine/1.4.16/Valine.min.js"></script>
 <script>
   new Valine({
     el: "#vcomments",
     app_id: "<%- theme.leancloud.app_id %>",
     app_key: "<%- theme.leancloud.app_key %>",
+    serverURLs: "<%- theme.leancloud.serverURLs %>",
     path: window.location.pathname,
     avatar: "<%- theme.valine.avatar %>",
     placeholder: "<%- theme.valine.placeholder %>",

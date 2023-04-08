@@ -4,10 +4,10 @@ menu:
   归档: /archives
   分类: /categories
   标签: /tags
-  #旅行: /tags/旅行/
-  #摄影: http://shenyu-vip.lofter.com
+  旅行: /tags/旅行/
+  摄影: http://shenyu-vip.lofter.com
   友链: /friends
-  关于: /2019/about
+  关于我: /2019/about
 
 # 站点次标题和打字动效
 # https://github.com/mattboldt/typed.js
@@ -24,14 +24,14 @@ subtitle:
 
 # 网站图标和侧边栏logo
 favicon: /favicon.ico
-logo: /images/ayer-side.svg
+logo: /images/yoga-side.svg
 
 # 封面配置
 # enable-是否启用封面；path-封面背景图；logo-封面logo
 cover:
   enable: true
   path: /images/cover1.jpg # /source/images目录下附送多张美图，可更换
-  logo: false #/images/ayer.svg，如果不要直接设置成false
+  logo: false #/images/yoga.svg，如果不要直接设置成false
 
 # 页面顶部进度条
 progressBar: true
@@ -123,7 +123,7 @@ layout:
 github:
   # (关闭请设置为false)
   enable: true
-  url: https://github.com/Shen-Yu/hexo-theme-ayer
+  url: https://github.com/LeoHaoVIP/hexo-theme-yoga
 
 # 网易云音乐插件
 music:
@@ -180,6 +180,17 @@ gongan:
 
 # 友情链接
 friends_link:
+  Yoga主题: #网站名称
+    #网站地址
+    url: https://github.com/LeoHaoVIP/hexo-theme-yoga
+    #网站图片(可忽略不写)
+    img: /images/yoga.png
+  GitHub:
+    url: https://github.com/LeoHaoVIP
+    img: /images/github.png
+  Hexo官网:
+    url: https://hexo.io
+    img: /images/hexo.png
 
 # 评论：1、Valine(推荐)；2、Gitalk；3、Twikoo; 4.MiniValine
 
