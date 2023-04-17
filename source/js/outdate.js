@@ -4,28 +4,25 @@
     let errorDay = 400;
     // 确保能够获取到文章时间以及在文章详情页
     let times = document.getElementsByTagName('time');
-    if (times.length === 0) {
-        return;
-    }
-    let posts = document.getElementsByClassName('article-entry');
-    if (posts.length === 0) {
-        return;
-    }
-
-    // 获取系统当前的时间
-    let pubTime = new Date(times[0].dateTime);
-    let now = Date.now()  /* 当前时间戳 */
-    let interval = parseInt(now - pubTime)
-    let days = parseInt(interval / 86400000)
-    /* 发布时间超过指定时间（毫秒） */
-    if (interval > warningDay * 3600 * 24 * 1000 && interval < errorDay * 3600 * 24 * 1000) {
-        posts[0].innerHTML = '<blockquote>' +
-            '<p style="color: orange;font-size: medium;line-height: 40px">友情提醒：这是一篇发布于 ' + days + ' 天前的文章，部分信息可能已不再适用，请注意甄别。</p>' +
-            '</blockquote>' + posts[0].innerHTML;
-    } else if (interval >= errorDay * 3600 * 24 * 1000) {
-        posts[0].innerHTML = '<blockquote>' +
-            '<p style="color: red;font-size: medium;line-height: 40px">友情提醒：这是一篇发布于 ' + days + ' 天前的文章，部分信息可能已不再适用，请注意甄别。</p>' +
-            '</blockquote>' + posts[0].innerHTML;
+    if (times.length !== 0) {
+        let posts = document.getElementsByClassName('article-entry');
+        if (posts.length !== 0) {
+            let article=posts[0];
+            let warningBlock = document.createElement('div');
+            // 获取系统当前的时间
+            let pubTime = new Date(times[0].dateTime);
+            let now = Date.now()  /* 当前时间戳 */
+            let interval = parseInt(now - pubTime)
+            let days = parseInt(interval / 86400000)
+            /* 发布时间超过指定时间（毫秒） */
+            if (interval > warningDay * 3600 * 24 * 1000 && interval < errorDay * 3600 * 24 * 1000) {
+                warningBlock.innerHTML = '<p style="color: orange;font-size: medium;line-height: 40px">&#9888; 友情提醒：这是一篇发布于 ' + days + ' 天前的文章，部分信息可能已不再适用，请注意甄别。</p>'
+                article.parentNode.insertBefore(warningBlock,article);
+            } else if (interval >= errorDay * 3600 * 24 * 1000) {
+                warningBlock.innerHTML = '<p style="color: red;font-size: medium;line-height: 40px">&#9888; 友情提醒：这是一篇发布于 ' + days + ' 天前的文章，部分信息可能已不再适用，请注意甄别。</p>'
+                article.parentNode.insertBefore(warningBlock,article);
+            }
+        }
     }
 })();
 
