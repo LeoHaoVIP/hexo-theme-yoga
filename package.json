@@ -1,6 +1,6 @@
 {
   "name": "hexo-theme-yoga",
-  "version": "1.0.5-rc3",
+  "version": "1.0.5-rc4",
   "description": "a clean and elegant theme for hexo.",
   "scripts": {
     "dev": "rollup -c -w",
