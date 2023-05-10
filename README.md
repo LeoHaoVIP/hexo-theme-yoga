@@ -3,9 +3,6 @@
 <h3 align="center">一个干净且优雅的 Hexo 主题</h3>
 
 <p align="center">
-  <a href="https://travis-ci.org/LeoHaoVIP/hexo-theme-yoga?branch=master" target="_blank" rel="noopener noreferrer">
-    <img alt="travis-ci" src="https://travis-ci.org/LeoHaoVIP/hexo-theme-yoga.svg?branch=master">
-  </a>
   <a href="http://standardjs.com" target="_blank" rel="noopener noreferrer">
     <img alt="js-standard-style" src="https://img.shields.io/badge/code%20style-standard-brightgreen.svg">
   </a>
@@ -24,27 +21,25 @@
     <img alt="npm version" src="https://img.shields.io/npm/v/hexo-theme-yoga">
   </a> 
  <img alt="language" src="https://img.shields.io/badge/language-ejs--stylus-green.svg">
- <a href="https://github.com/LeoHaoVIP/hexo-theme-yoga/releases" target="_blank" rel="noopener noreferrer">
-  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/LeoHaoVIP/hexo-theme-yoga?color=b37feb">
-  </a>
   <a href="https://github.com/LeoHaoVIP/hexo-theme-yoga/blob/master/LICENSE" target="_blank" rel="noopener noreferrer"><img alt="LICENSE" src="https://img.shields.io/badge/LICENSE-SATA-6ccab8">
   </a>
 </p>
 
+
 ---
 
-:ocean: Yoga is a clean and elegant theme for Hexo, also fast, powerful and responsive. It contains many awesome features, It's perfect for your blog, "Yoga" means "water" in Malaysian and "yesterday" in Spanish. [Create an issue](https://github.com/LeoHaoVIP/hexo-theme-yoga/issues/new/choose) if you have any queries or advice during the process of using, 
+:ocean: Yoga is a nice and graceful theme for Hexo, also fast, powerful and responsive. It contains many awesome features, It's perfect for your blog, "Yoga" means "Peaceful", it also the name of a singer from Taiwan, China. [Create an issue](https://github.com/LeoHaoVIP/hexo-theme-yoga/issues/new/choose) if you have any queries or advice during the process of using, 
 
-<b>注：收藏本主题请点右上角 Star，谢谢~~ </b>
-<b>如果你想给主题添砖加瓦，可以点右上角 Fork，然后给此仓库提交 PR</b>
+**注：收藏本主题请点右上角 Star，谢谢~~ **
+**如果你想给主题添砖加瓦，可以点右上角 Fork，然后给此仓库提交 PR**
 
-### [Preview 预览](https://LeoHaoVIP.gitee.io)
+### [Preview 预览](https://leohaovip.github.io)
 
-### [中文说明](https://LeoHaoVIP.gitee.io/2019/yoga/)
+### [中文说明](https://leohaovip.github.io/2023/03/10/hexo-theme-yoga)
 
 ### [国内镜像](https://gitee.com/LeoHaoVIP/hexo-theme-yoga)
 
-![Screenshot](screenshots/hexo-theme-yoga.png)
+<img src="screenshots/hexo-theme-yoga.png" alt="Screenshot" style="zoom:80%;" />
 
 ## Install
 

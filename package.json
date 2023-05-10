@@ -1,7 +1,7 @@
 {
   "name": "hexo-theme-yoga",
-  "version": "1.0.6",
-  "description": "a clean and elegant theme for hexo.",
+  "version": "1.0.6-rc1",
+  "description": "a nice and graceful theme for hexo.",
   "scripts": {
     "dev": "rollup -c -w",
     "build": "rollup -c",
@@ -17,7 +17,8 @@
     "hexo",
     "theme",
     "blog",
-    "yoga"
+    "yoga",
+    "ayer"
   ],
   "author": "Wenhao Zhao <zhaowenhao2867@outlook.com>",
   "license": "SATA",
