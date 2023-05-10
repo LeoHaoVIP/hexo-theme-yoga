@@ -13,9 +13,6 @@
   <a href="https://LeoHaoVIP.gitee.io" target="_blank" rel="noopener noreferrer">
    <img alt="platform" src="https://img.shields.io/badge/platform-PC--ios--android-ff69b4.svg">
    </a>
-  <a href="https://gitter.im/hexo-theme-yoga/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge" target="_blank" rel="noopener noreferrer">
-    <img alt="Gitter" src="https://badges.gitter.im/Join%20Chat.svg">
-  </a>
   <br>
   <a href="https://www.npmjs.com/package/hexo-theme-yoga" target="_blank" rel="noopener noreferrer">
     <img alt="npm version" src="https://img.shields.io/npm/v/hexo-theme-yoga">
@@ -26,20 +23,30 @@
 </p>
 
 
+
 ---
 
-:ocean: Yoga is a nice and graceful theme for Hexo, also fast, powerful and responsive. It contains many awesome features, It's perfect for your blog, "Yoga" means "Peaceful", it also the name of a singer from Taiwan, China. [Create an issue](https://github.com/LeoHaoVIP/hexo-theme-yoga/issues/new/choose) if you have any queries or advice during the process of using, 
+预览（[LeoHao's Blog ](https://blog.leohao.cn) · [GitHub Pages ](https://leohaovip.github.io)） |[中文使用说明](https://blog.leohao.cn/2023/03/10/hexo-theme-yoga)  | [GitHub](https://github.com/LeoHaoVIP/hexo-theme-yoga) | [Gitee](https://gitee.com/LeoHaoVIP/hexo-theme-yoga)
 
-**注：收藏本主题请点右上角 Star，谢谢~~ **
-**如果你想给主题添砖加瓦，可以点右上角 Fork，然后给此仓库提交 PR**
+🧘 Yoga is a nice and graceful theme for Hexo, also fast, powerful and responsive. It contains many awesome features, It's perfect for your blog, "Yoga" means "Peaceful", it also the name of a [singer](https://music.163.com/#/artist?id=3685) from Taiwan, China.
 
-### [Preview 预览](https://leohaovip.github.io)
-
-### [中文说明](https://leohaovip.github.io/2023/03/10/hexo-theme-yoga)
-
-### [国内镜像](https://gitee.com/LeoHaoVIP/hexo-theme-yoga)
+[Create an issue](https://github.com/LeoHaoVIP/hexo-theme-yoga/issues/new/choose) if you have any queries or advice during the process of using.
 
 <img src="screenshots/hexo-theme-yoga.png" alt="Screenshot" style="zoom:80%;" />
+
+## Copyright Declaration
+
+**The copyright of this project belongs entirely to [ShenYu](https://github.com/Shen-Yu)**, I come here to make the project better.
+
+Hexo-theme-yoga is an optimized and customized version of [hexo-theme-ayer](https://github.com/Shen-Yu/hexo-theme-ayer), developed by [ShenYu](https://github.com/Shen-Yu). The main changes are as follows:
+
+- Fix CDN accessing problems
+- Add support for customized serverUrls for LeanCloud API
+- Fix word count bugs on encrypted pages
+- Fix ToC (Table of Contents) bugs on encrypted pages
+- Add warning for old posts
+- Add hidden property in the meta-data of post
+- Make image_viewer only works for posts not pages
 
 ## Install
 
@@ -490,8 +497,6 @@ hidden: true
 
 ---
 
-
-
 ## Code Contributors
 
 This project exists thanks to all the people who contribute.
@@ -504,16 +509,4 @@ This project exists thanks to all the people who contribute.
 
 ## License
 
-<a src="https://github.com/LeoHaoVIP/hexo-theme-yoga">Yoga</a> by <a  href="https://github.com/LeoHaoVIP">LeoHao</a> is licensed under <a rel="license" href="https://github.com/LeoHaoVIP/hexo-theme-yoga/blob/master/LICENSE">SATA-License</a>.
-
-The basic idea is, whenever using a project using SATA license, people shall star/like/+1 that project and thank the author. Just imagine Google stared your project and send you a thank-you letter because they used your project in github!
-<br>
-
-本项目采用<a rel="license" href="https://github.com/LeoHaoVIP/hexo-theme-yoga/blob/master/LICENSE">SATA</a>开源协议，在遵守 MIT 许可证的前提下，你应该马不停蹄的给这个开源项目“点个赞”，比如 github 右上角的 star，然后你应该感谢这个开源项目的作者，作者信息可以在许可证头部的版权声明部分找到。<br>
-
-下面是几条 SATA 作者推荐的感谢途径，也是 SATA 包含的内容：
-
-- 给你使用的开源项目的作者发个 Email，和他交个朋友
-- 提出你在使用过程中发现的 BUG 或者提一些建设性的意见
-- 告诉你的朋友们这是一个多棒的开源项目
-- 当然，你也可以只是在心里默默的感激，不用让全世界都知道
+The copyright of this project belongs entirely to [ShenYu](https://github.com/Shen-Yu), I just come here to make the project better.
