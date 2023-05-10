@@ -23,7 +23,7 @@
 <script src="https://cdn.staticfile.org/justifiedGallery/3.8.1/js/jquery.justifiedGallery.min.js"></script>
 <%- js('dist/main') %>
 <!-- ImageViewer -->
-<% if (theme.image_viewer){ %> <%- partial('viewer') %> <% } %>
+<% if (theme.image_viewer && is_post()){ %> <%- partial('viewer') %> <% } %>
 <!-- MathJax -->
 <% if (theme.mathjax){ %> <%- partial('mathjax') %>
 <script>
