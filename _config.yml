@@ -23,7 +23,7 @@ subtitle:
 
 # 网站图标和侧边栏logo
 favicon: /favicon.ico
-logo: /images/yoga-side.svg
+logo: /images/yoga.png
 
 # 封面配置
 # enable-是否启用封面；path-封面背景图；logo-封面logo
@@ -234,15 +234,15 @@ minivaline:
 # 可以根据需要自行增加ad_3，ad_4...，留空则不显示，建议图片和url不要带ad等关键词，否则可能会被adblock等插件屏蔽
 ads:
   ad_1:
-    title: 云服务器限时秒杀
-    img: https://pic.imgdb.cn/item/62174b452ab3f51d912a5ccc.jpg
-    url: https://curl.qcloud.com/kvO7hb43
-    width: 300
+    title: 
+    img:
+    url:
+    width: 0
   ad_2:
-    title: vultr优惠vps
-    img: https://pic.imgdb.cn/item/62174b452ab3f51d912a5cd7.png
-    url: https://www.vultr.com/?ref=8630075
-    width: 300
+    title: 
+    img:
+    url:
+    width: 0
 
 # 网站开启加密访问，密码可设置任何字符
 lock:

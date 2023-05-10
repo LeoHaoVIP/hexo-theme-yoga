@@ -87,36 +87,35 @@ let me know if you have any questions.
 # Menu-Sidebar
 menu:
   Home: /
-  Archives: /archives
+  Timeline: /archives
   Categories: /categories
   Tags: /tags
-  Gallery: http://shenyu-vip.lofter.com
-  Travel: /tags/旅行/
-  About: /2019/about
+  Travel: /categories/旅行/
+  About: /about
 
 # Subtitle and Typing animation
 # https://github.com/mattboldt/typed.js
 subtitle:
   enable: true
-  text: A clean and elegant theme
-  text2: It's perfect for your hexo blog
-  text3: Have fun! #Supports up to three lines of text
+  text: Yoga
+  text2: hexo-theme-yoga
+  text3: A nice and graceful theme for hexo! #Supports up to three lines of text
   startDelay: 0
-  typeSpeed: 200
+  typeSpeed: 150
   loop: true
-  backSpeed: 100
+  backSpeed: 50
   showCursor: true
 
 # Favicon and sidebar logo
 favicon: /favicon.ico
-logo: /images/yoga-side.svg
+logo: /images/yoga.png
 
 # Cover Setting
 # enable: [true|false]；path: [background-image]；logo: [cover-logo-image]
 cover:
   enable: true
-  path: /images/cover1.jpg # there are some beautiful cover images in Yoga's directory: /source/images, choose your favorite image to replace it.
-  logo: /images/yoga.svg
+  path: /images/cover4.jpg # there are some beautiful cover images in Yoga's directory: /source/images, choose your favorite image to replace it.
+  logo: false #/images/yoga.png
 
 # ProgressBar
 progressBar: true
@@ -135,7 +134,7 @@ excerpt_all: false
 # Copy code button
 copy_btn: true
 # Share
-share_enable: true
+share_enable: false
 # If you are not in China, maybe you prefer to set:false
 share_china: true
 # share text
@@ -159,11 +158,11 @@ image_viewer: true
 word_count:
   enable: true
   # only display in article page(not in index page)
-  only_article_visit: true
+  only_article_visit: false
 
 # Reward Setting
 # type：0-close reward； 1-only open in article which you have configured reward:true； 2-open in all articles
-reward_type: 2
+reward_type: 0
 # reward word
 reward_wording: "Buy me a cup of coffee~"
 # qrcode image path
@@ -205,7 +204,7 @@ layout:
 # GitHub Ribbons(https://github.blog/2008-12-19-github-ribbons/)
 github:
   # (Set false if you don't need)
-  enable: false
+  enable: true
   url: https://github.com/LeoHaoVIP/hexo-theme-yoga
 
 # pv&uv statistics
@@ -214,8 +213,8 @@ busuanzi:
 
 # cnzz statistics
 cnzz:
-  enable: true
-  url: #
+  enable: false
+  url: https://s9.cnzz.com/...
 
 # Google Analytics
 google_analytics: ""
@@ -223,64 +222,64 @@ google_analytics: ""
 baidu_analytics: ""
 
 # Mathjax Support
-mathjax: true
+mathjax: false
 
 # Katex Support
 # note: need change the hexo-renderer，npm un hexo-renderer-marked -S && npm i hexo-renderer-markdown-it-katex -S
 katex:
-  enable: false # true
+  enable: true
   allpost: true
   copy_tex: false
 
+mermaid:
+  enable: false
+  cdn: https://cdn.staticfile.org/mermaid/8.14.0/mermaid.min.js
+  theme: forest
+  
 # since year
-since: 2019
+since: 2020
 
 # only for chinese website
 # ICP
 icp:
   enable: false
   url: "http://www.beian.miit.gov.cn/"
-  text: "浙ICP备88888888"
+  text: "皖ICP备88888888号"
 # gongan
 gongan:
   enable: false
   img: /images/beian.png
   url: "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=01234567890123" #link
-  text: "浙公网安备01234567890123号"
+  text: "xxx号"
 
 # friends link
 friends_link:
   Yoga: #site name
-    # site url
+    #site url
     url: https://github.com/LeoHaoVIP/hexo-theme-yoga
-    # site icon(optional)
     img: /images/yoga.png
   GitHub:
     url: https://github.com/LeoHaoVIP
-    img: https://i.loli.net/2020/09/07/indb4PRYDA98EkN.png
-  gitee:
-    url: https://gitee.com/LeoHaoVIP
-    img: https://i.loli.net/2020/09/07/K3AqO7h6krQFlRX.png
-  Hexo:
+    img: /images/github.png
+  Hexo官网:
     url: https://hexo.io
-    img: https://i.loli.net/2020/09/07/UYGzjo7h68CRWny.png
-  hexo-tag-chart:
-    url: https://github.com/LeoHaoVIP/hexo-tag-chart
-    img: https://i.loli.net/2020/09/07/GIXBYE5SoylhR1r.png
+    img: /images/hexo.png
 
 # Comment：1、Valine (recommended)；2、Gitalk；3、Twikoo；4、MiniValine
 # You can close the comment section on one of your posts by marking `comments: false` in front-matter.
 
 # 1、Valine [A fast, simple & powerful comment system](https://github.com/xCss/Valine)
 # You need create leancloud account first (https://console.leancloud.app), then put the id|key in below.
+# leancloud API can be replaced via ${serverURLs}
 leancloud:
   enable: true
   app_id: #
   app_key: #
+  serverURLs: #
 # Valine Setting
 valine:
-  enable: true
-  avatar: mp # (https://valine.js.org/avatar.html)
+  enable: false
+  avatar: robohash # (https://valine.js.org/avatar.html)
   placeholder: Add some comments to my article~ # placeholder
 
 # 2、Gitalk(https://github.com/gitalk/gitalk)
@@ -307,27 +306,32 @@ minivaline:
 # if there is an "ad" word in photo or url，it may blocked by adblock or any other browser extensions
 ads:
   ad_1:
-    title: vultr优惠vps
-    img: https://fastly.jsdelivr.net/gh/LeoHaoVIP/cdn/img/vultr.png
-    url: https://www.vultr.com/?ref=8630075
-    width: 300
+    title: 
+    img:
+    url:
+    width: 0
   ad_2:
-    title: 云服务器全球购低至2折
-    img: https://fastly.jsdelivr.net/gh/LeoHaoVIP/cdn/img/ten_2.jpg
-    url: https://curl.qcloud.com/kvO7hb43
-    width: 300
+    title: 
+    img:
+    url:
+    width: 0
 
 # encrypt settings
 lock:
   enable: false
   password: 123456
+  
+sitemap:
+  path:
+baidusitemap:
+  path:
 ```
 
 ## Plugins
 
 - [hexo-generator-search](https://github.com/wzpan/hexo-generator-search) (for Local Search)
 
-  ```yml
+  ```bash
   $ npm install hexo-generator-searchdb --save
   ```
 
@@ -341,9 +345,29 @@ lock:
     format: html
   ```
 
+- [hexo-blog-encrypt-another](https://github.com/wzpan/hexo-generator-search) (for Encrypted Post)
+
+  > `hexo-blog-encrypt-another` is another version of `hexo-blog-encrypt-another`, it will refresh current page when user passed the verification, which will help the page regenerate the toc.
+  
+  ```
+$ npm install hexo-blog-encrypt-another --save
+  ```
+
+  If you want to make one post or page encrpted, add `password: your_password` in the metadata.
+  
+  ```yml
+  ---
+  title: Example of encrypted post
+  date: 2023-03-01 19:46:02
+  tags: [Share,Hexo, Encry]
+  category: [tutorial]
+  password: 123456
+  ---
+  ```
+
 - [hexo-generator-feed](https://github.com/hexojs/hexo-generator-feed) (for RSS)
 
-  ```yml
+  ```bash
   $ npm install hexo-generator-feed --save
   ```
 
@@ -376,7 +400,7 @@ lock:
 
 Then paste following codes to file: /source/categories/index.md
 
-```md
+```yml
 ---
 title: categories
 type: categories
@@ -386,7 +410,19 @@ layout: "categories"
 
 ## Tags
 
-Same as categories.
+```bash
+  hexo new page tags
+```
+
+Then paste following codes to file: /source/tags/index.md
+
+```yml
+---
+title: tags
+type: tags
+layout: "tags"
+---
+```
 
 ## Friend Links
 
@@ -396,7 +432,7 @@ hexo new page friends
 
 Then paste following codes to file: /source/friends/index.md
 
-```md
+```yml
 ---
 title: friends
 type: friends
@@ -436,10 +472,25 @@ Use Tocbot to parse the title tags (h1~h6) in the content and insert the directo
   no_toc: true
   ---
   ```
+## Hidden
+
+If you want one post or page not shown in the mainpage, add `hidden: true` in the metadata.
+
+> Note：Hidden post can still be searched and its tag and category will not be hidden.
+
+```yml
+---
+title: Example of hidden post
+date: 2023-03-01 19:46:02
+tags: [Share,Hexo, Hidden]
+category: [tutorial]
+hidden: true
+---
+```
 
 ---
 
-<br/>
+
 
 ## Code Contributors
 
