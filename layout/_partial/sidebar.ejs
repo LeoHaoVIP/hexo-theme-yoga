@@ -1,9 +1,14 @@
 <button class="navbar-toggle"></button>
 <nav class="navbar">
-  <% if (theme.logo){ %>
-  <div class="logo">
-    <a href="<%- url_for() %>"><img src="<%- theme.logo %>" alt="<%= config.title %>"></a>
-  </div>
+  <% if (theme.logo.path){ %>
+    <div class="logo" id="logo-box">
+      <img src="<%- theme.logo.path %>" alt="<%= config.title %>">
+    </div>
+  <% } %>
+  <% if (theme.logo.audio){ %>
+    <audio id="audio">
+      <source src="<%= theme.logo.audio %>">
+    </audio>
   <% } %>
   <ul class="nav nav-main">
     <% for (var i in theme.menu){ %>
@@ -32,3 +37,17 @@
 <div class="search-form-wrap">
   <%- partial('post/search') %>
 </div>
+<script>
+  const audio = document.getElementById('audio');
+  const logoBox = document.getElementById('logo-box');
+  logoBox.onclick = () => {
+    if (!audio) {
+      return;
+    }
+    if (audio.paused) {
+      audio.play();
+    } else {
+      audio.pause();
+    }
+  };
+</script>

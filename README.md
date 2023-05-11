@@ -1,4 +1,4 @@
-<p align="center"><a href="https://LeoHaoVIP.gitee.io" target="_blank" rel="noopener noreferrer"><img width="100" src="logo.png" alt="yoga logo"></a></p>
+<p align="center"><a href="https://LeoHaoVIP.github.io" target="_blank" rel="noopener noreferrer"><img width="100" src="logo.png" alt="yoga logo"></a></p>
 
 <h3 align="center">一个干净且优雅的 Hexo 主题</h3>
 
@@ -115,7 +115,10 @@ subtitle:
 
 # Favicon and sidebar logo
 favicon: /favicon.ico
-logo: /images/yoga.png
+logo:
+  path: /images/yoga.png
+  # sound will play when logo is clicked
+  audio: /audios/morse.wav
 
 # Cover Setting
 # enable: [true|false]；path: [background-image]；logo: [cover-logo-image]
@@ -354,7 +357,7 @@ baidusitemap:
 
 - [hexo-blog-encrypt-another](https://github.com/wzpan/hexo-generator-search) (for Encrypted Post)
 
-  > `hexo-blog-encrypt-another` is another version of `hexo-blog-encrypt-another`, it will refresh current page when user passed the verification, which will help the page regenerate the toc.
+  > `hexo-blog-encrypt-another` is another version of `hexo-blog-encrypt`, it will refresh current page when user passed the verification, which will help the page regenerate the toc.
   
   ```
 $ npm install hexo-blog-encrypt-another --save
