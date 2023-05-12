@@ -37,6 +37,20 @@
 <div class="search-form-wrap">
   <%- partial('post/search') %>
 </div>
+<style>
+  .logo{
+    animation: rotate 5s linear infinite;
+    animation-play-state: paused;
+  }
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+</style>
 <script>
   const audio = document.getElementById('audio');
   const logoBox = document.getElementById('logo-box');
@@ -46,8 +60,10 @@
     }
     if (audio.paused) {
       audio.play();
+      logoBox.style.animationPlayState='running';
     } else {
       audio.pause();
+      logoBox.style.animationPlayState='paused';
     }
   };
 </script>
