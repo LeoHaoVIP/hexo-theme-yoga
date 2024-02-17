@@ -1,5 +1,5 @@
-<% if (!index && theme.leancloud && theme.leancloud.enable && post.comments){ %>
-  <!-- valine评论 -->
+<% if (!index && theme.leancloud && theme.leancloud.enable && post.comments && page.encrypt !== true){ %>
+    <!-- valine评论 -->
   <div id="vcomments-box">
     <div id="vcomments"></div>
   </div>
